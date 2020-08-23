@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+body {
+  background-image: url("https://i.pinimg.com/originals/4e/cc/57/4ecc5727c94b40b7136b13c9c3169b1f.gif");
+  background-repeat: repeat;
+  font-size: 20px;
+  line-height: 45px;
+  font-family: Montserrat, serif;
+}
+
+.navbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: rgba(117, 114, 111, 0.712);
+}
+
+.navbar li {
+  display: inline-block;
+}
+
+.navbar a {
+  color: #f00660;
+  display: block;
+  padding: 5px;
+}
+
+.navbar a:hover {
+  background: rgba(236, 58, 58, 0.404);
+}
+
+.welcome-section {
+  color: blanchedalmond;
+  margin: 55px auto 50px auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 80%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.836);
+}
+
+.welcome-section img {
+  margin-top: 40px;
+}
+
+.welcome-section h1 {
+  padding: 10px;
+  font-size: 70px;
+}
+
+.welcome-section p {
+  color: brown;
+  font-size: 30px;
+}
+/*# sourceMappingURL=style.css.map */
