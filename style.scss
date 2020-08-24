@@ -106,19 +106,55 @@ body {
         }
     }
 
+    #link {
+        flex: 1 1 100%;
+    }
+    #profile-link {
+        color: rgb(228, 40, 15);
+    }
+
     .btn {
-    color: rgb(206, 228, 13);
-    padding:0 15px;
-    background: rgb(47, 48, 27);
-    border-radius: 15px;
-    transition: transform 0.3s ease-out;
-    &:hover {
+        padding:0 15px;
+        background: rgb(47, 48, 27);
+        border-radius: 15px;
+        transition: transform 0.3s ease-out;
+        &:hover {
         transform: translateY(8px);
+        }
+}
+.footer {
+    width: 100%;
+    background: rgba(117, 114, 111, 0.712);
+    text-align: center;
+    font-size: 30px;
+    color: rgb(3, 12, 12);
+    h2 {
+        display: inline-block;
+        font-size: 50px;
+        font-weight: bold;
+        margin-top: 20px;
     }
 }
-
-
-
+.contacts {
+    ul {
+    display: flex;
+    justify-content: space-around;
+    //margin-bottom: 40px;
+    li {
+        display: block;
+        margin: 40px auto;
+        font-size: 20px;
+        transition: transform 0.3s ease-out;
+            :hover {
+                transform: translateY(8px);
+            }
+        a {
+            color: #000;
+            text-shadow: 2px 2px 1px #f3ebeb;
+            }
+        }
+    }
+}
 
 @media screen and (max-width: 650px){
     #welcome-section {
