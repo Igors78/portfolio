@@ -57,6 +57,8 @@ body {
 }
 
 .welcome-section img {
+  border-radius: 10px;
+  width: 50%;
   margin-top: 40px;
 }
 
@@ -68,5 +70,100 @@ body {
 .welcome-section p {
   color: brown;
   font-size: 30px;
+}
+
+.projects {
+  color: blanchedalmond;
+  margin: 55px auto 50px auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 80%;
+  background-color: rgba(0, 0, 0, 0.836);
+  padding: 10px 0px 40px 0px;
+}
+
+.projects p {
+  color: blanchedalmond;
+  font-size: 50px;
+  margin: 70px auto 20px auto;
+}
+
+.project-tile {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-item-align: center;
+      align-self: center;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 30%;
+          flex: 1 1 30%;
+  margin: 10px;
+}
+
+.project-tile img {
+  border-radius: 10px;
+  min-width: 30%;
+  display: block;
+}
+
+.project-tile a {
+  color: blanchedalmond;
+  display: block;
+}
+
+.project-tile a .code {
+  color: rgba(0, 0, 0, 0.836);
+  -webkit-transition: color 0.3s ease-out;
+  transition: color 0.3s ease-out;
+}
+
+.project-tile a:hover .code {
+  color: #db0421;
+  font-size: 20px;
+}
+
+@media screen and (max-width: 650px) {
+  #welcome-section {
+    width: 100%;
+  }
+  #welcome-section h1 {
+    padding: 10px;
+    font-size: 40px;
+  }
+  #welcome-section p {
+    color: brown;
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 940px) {
+  #projects p {
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 570px) {
+  #projects p {
+    font-size: 20px;
+  }
 }
 /*# sourceMappingURL=style.css.map */

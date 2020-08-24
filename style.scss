@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
+
+    
+
+
+
 body {
     background-image: url('https://i.pinimg.com/originals/4e/cc/57/4ecc5727c94b40b7136b13c9c3169b1f.gif');
     background-repeat: repeat;
@@ -32,6 +37,8 @@ body {
 
 .welcome-section {
     img {
+        border-radius: 10px;
+        width: 50%;
         margin-top: 40px;
     }
     h1 {
@@ -53,3 +60,81 @@ body {
     background-color: rgba(0, 0, 0, 0.836);
 }
 
+.projects {
+    p {
+        color: blanchedalmond;
+        font-size: 50px;
+        margin: 70px auto 20px auto;
+    }
+    color: blanchedalmond;
+    margin: 55px auto 50px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    background-color: rgba(0, 0, 0, 0.836);
+    padding: 10px 0px 40px 0px;
+}
+.project-tile {
+    //border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    flex: 1 1 30%;
+    margin: 10px;
+    img {
+        border-radius: 10px;
+        min-width: 30%; 
+        display: block;
+    }
+    a {
+        color: blanchedalmond;
+        display: block;
+        .code {
+            color: rgba(0, 0, 0, 0.836);
+            transition: color 0.3s ease-out;
+        }
+        &:hover {
+            .code {
+            color: #db0421;
+            font-size: 20px;
+        }
+        }
+        }
+    
+}
+
+
+
+
+@media screen and (max-width: 650px){
+    #welcome-section {
+    width: 100%;
+        h1 {
+        padding: 10px;
+        font-size: 40px;
+    }
+    p {
+        color: brown;
+        font-size: 20px;
+    }
+    }
+    
+}
+@media screen and (max-width: 940px){
+    #projects {
+        p{
+            font-size: 30px;
+        }
+    }
+}
+@media screen and (max-width: 570px){
+    #projects {
+        p{
+            font-size: 20px;
+        }
+    }
+}
