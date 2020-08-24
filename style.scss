@@ -104,7 +104,17 @@ body {
         }
         }
         }
-    
+    }
+
+    .btn {
+    color: rgb(206, 228, 13);
+    padding:0 15px;
+    background: rgb(47, 48, 27);
+    border-radius: 15px;
+    transition: transform 0.3s ease-out;
+    &:hover {
+        transform: translateY(8px);
+    }
 }
 
 

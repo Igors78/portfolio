@@ -141,6 +141,22 @@ body {
   font-size: 20px;
 }
 
+.btn {
+  color: #cee40d;
+  padding: 0 15px;
+  background: #2f301b;
+  border-radius: 15px;
+  -webkit-transition: -webkit-transform 0.3s ease-out;
+  transition: -webkit-transform 0.3s ease-out;
+  transition: transform 0.3s ease-out;
+  transition: transform 0.3s ease-out, -webkit-transform 0.3s ease-out;
+}
+
+.btn:hover {
+  -webkit-transform: translateY(8px);
+          transform: translateY(8px);
+}
+
 @media screen and (max-width: 650px) {
   #welcome-section {
     width: 100%;
