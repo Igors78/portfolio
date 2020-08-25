@@ -276,5 +276,8 @@ body {
   .footer h2 {
     font-size: 30px;
   }
+  .hidetext {
+    display: none;
+  }
 }
 /*# sourceMappingURL=style.css.map */
