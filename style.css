@@ -92,6 +92,9 @@ body {
 }
 
 .projects p {
+  text-align: center;
+  width: 100%;
+  display: inline-block;
   color: blanchedalmond;
   font-size: 50px;
   margin: 70px auto 20px auto;
@@ -193,20 +196,20 @@ body {
   display: block;
   margin: 40px auto;
   font-size: 20px;
+}
+
+.contacts ul li a {
+  color: #000;
+  text-shadow: 2px 2px 1px #f3ebeb;
   -webkit-transition: -webkit-transform 0.3s ease-out;
   transition: -webkit-transform 0.3s ease-out;
   transition: transform 0.3s ease-out;
   transition: transform 0.3s ease-out, -webkit-transform 0.3s ease-out;
 }
 
-.contacts ul li :hover {
+.contacts ul li a :hover {
   -webkit-transform: translateY(8px);
           transform: translateY(8px);
-}
-
-.contacts ul li a {
-  color: #000;
-  text-shadow: 2px 2px 1px #f3ebeb;
 }
 
 @media screen and (max-width: 650px) {
@@ -221,17 +224,57 @@ body {
     color: brown;
     font-size: 20px;
   }
-}
-
-@media screen and (max-width: 940px) {
+  #projects {
+    width: 100%;
+  }
   #projects p {
     font-size: 30px;
   }
 }
 
+@media screen and (max-width: 940px) {
+  #projects {
+    width: 100%;
+  }
+  #projects p {
+    font-size: 30px;
+  }
+  #welcome-section {
+    width: 100%;
+  }
+  #welcome-section h1 {
+    padding: 10px;
+    font-size: 40px;
+  }
+  #welcome-section p {
+    color: brown;
+    font-size: 20px;
+  }
+}
+
 @media screen and (max-width: 570px) {
+  #projects {
+    width: 100%;
+  }
   #projects p {
     font-size: 20px;
+  }
+  #welcome-section {
+    width: 100%;
+  }
+  #welcome-section h1 {
+    padding: 10px;
+    font-size: 40px;
+  }
+  #welcome-section p {
+    color: brown;
+    font-size: 20px;
+  }
+  .footer {
+    font-size: 20px;
+  }
+  .footer h2 {
+    font-size: 30px;
   }
 }
 /*# sourceMappingURL=style.css.map */

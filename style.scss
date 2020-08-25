@@ -62,6 +62,9 @@ body {
 
 .projects {
     p {
+        text-align: center;
+        width: 100%;
+        display: inline-block;
         color: blanchedalmond;
         font-size: 50px;
         margin: 70px auto 20px auto;
@@ -144,14 +147,14 @@ body {
         display: block;
         margin: 40px auto;
         font-size: 20px;
-        transition: transform 0.3s ease-out;
-            :hover {
-                transform: translateY(8px);
-            }
         a {
             color: #000;
             text-shadow: 2px 2px 1px #f3ebeb;
+            transition: transform 0.3s ease-out;
+            :hover {
+                transform: translateY(8px);
             }
+        }
         }
     }
 }
@@ -168,19 +171,54 @@ body {
         font-size: 20px;
     }
     }
-    
-}
-@media screen and (max-width: 940px){
     #projects {
+        width: 100%;
         p{
             font-size: 30px;
         }
     }
 }
+@media screen and (max-width: 940px){
+    #projects {
+        width: 100%;
+        p{
+            font-size: 30px;
+        }
+    }
+    #welcome-section {
+        width: 100%;
+            h1 {
+            padding: 10px;
+            font-size: 40px;
+        }
+        p {
+            color: brown;
+            font-size: 20px;
+        }
+        }
+}
 @media screen and (max-width: 570px){
     #projects {
+        width: 100%;
         p{
             font-size: 20px;
         }
     }
+    #welcome-section {
+        width: 100%;
+            h1 {
+            padding: 10px;
+            font-size: 40px;
+        }
+        p {
+            color: brown;
+            font-size: 20px;
+        }
+        }
+        .footer {
+            h2 {
+                font-size: 30px;
+            }
+            font-size: 20px;
+        }
 }
