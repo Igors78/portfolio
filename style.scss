@@ -225,3 +225,8 @@ body {
             display: none;
         }
 }
+@media screen and (max-width: 745px){
+    .hidetext {
+        display: none;
+    }
+}
