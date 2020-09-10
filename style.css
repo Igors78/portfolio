@@ -286,12 +286,4 @@ body {
     display: none;
   }
 }
-
-#leetcode:before {
-  content: '';
-  display: block;
-  background: url(img/leetcodeicon.png) no-repeat;
-  width: 40px;
-  height: 40px;
-}
 /*# sourceMappingURL=style.css.map */
