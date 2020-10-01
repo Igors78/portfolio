@@ -31,9 +31,9 @@ Sample of static responsive web page
 ## Authors
 
 👤 **Author**
-
-- GitHub: [@github](https://github.com/Igors78)
-- Twitter: [@twitter](https://twitter.com/oleinikovs)
+**Igors Oleinikovs**
+- GitHub: [@Igors78](https://github.com/Igors78)
+- Twitter: [@oleinikovs](https://twitter.com/oleinikovs)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/igors-oleinikovs-17a10958/)
 
 
